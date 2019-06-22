@@ -19,5 +19,8 @@ the *alphabeta.py* script. Have fun!
 
 ## Inner workings of the classification model
 I used a small Convolutional Neural Network to classify for each cell in the grid (board) whether there's an X, an O
-or nothing. It has an average score of **insert percentage**, but it has worked well everytime I've played. Specifics 
+or nothing. It has an average score of 96.91%, but it has worked well everytime I've played. Specifics 
 of the model and it's configuration are in the README.md under the data directory.
+
+## Resources
+I used [CWoebker's alphabeta script](https://cwoebker.com/posts/tic-tac-toe) and added some documentation to it.
