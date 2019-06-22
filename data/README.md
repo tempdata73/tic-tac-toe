@@ -13,7 +13,7 @@ set it achieved lower performance.
 
 
 One possible explanation for the overfitting might be due to:
-1. *****Limited dataset:** even though the model is small, the dataset consists
+1. **Limited dataset:** even though the model is small, the dataset consists
 of 160 images per class for training and validation, and 40 images per class
 for evaluation. More data will yield better results.
 2. **Evaluation data comes from a different distribution:** In order to obtain
@@ -23,6 +23,6 @@ other one for evaluation. Since I didn't use a strict methodology, it is
 partially learned.
 
 
-Nevertheless, I haven't had any misclassifications error while playing
+Nevertheless, I haven't had any misclassifications errors while playing
 tic-tac-toe. Needless to say that these problems will be addressed in the
 future just to make sure this project runs seamlessly.
