@@ -113,7 +113,7 @@ callbacks = [
     EarlyStopping(patience=5, verbose=1, restore_best_weights=True)]
 
 print('Training model...')
-model.fit_generator(
+history = model.fit_generator(
     train_generator,
     steps_per_epoch=128,
     epochs=epochs,
@@ -131,5 +131,5 @@ print('Crossentropy loss: {:0.3f}'.format(loss))
 print('Accuracy: {:0.3f}'.format(acc))
 
 # Save model
-model.save('data/model.h5')
-print('Saved model to disk')
+# model.save('data/model.h5')
+# print('Saved model to disk')
