@@ -131,5 +131,5 @@ print('Crossentropy loss: {:0.3f}'.format(loss))
 print('Accuracy: {:0.3f}'.format(acc))
 
 # Save model
-# model.save('data/model.h5')
+# model.save('../data/model.h5')
 # print('Saved model to disk')
