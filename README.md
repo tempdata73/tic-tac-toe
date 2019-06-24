@@ -1,4 +1,4 @@
-# Play tic-tac-toe with OpenCV
+# Play tic-tac-toe with OpenCV and Keras
 This project is about the traditional game of tic-tac-toe. Using OpenCV and Keras we are now able to play it
 against the computer using a real board and a marker.
 
