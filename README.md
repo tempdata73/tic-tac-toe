@@ -12,7 +12,7 @@ against the computer using a real board and a marker.
 - It is recommendable to not completely cover the center cell.
 
 
-[![Tic Tac Toe with OpenCV and Keras] (data/thumbnail.png)](https://www.youtube.com/watch?v=u0T6KRTXdio)
+[![Tic Tac Toe with OpenCV and Keras](data/thumbnail.png)](https://www.youtube.com/watch?v=u0T6KRTXdio "Tic Tac Toe with OpenCV and Keras")
 
 
 ## How to win?
